@@ -7,6 +7,10 @@ public class Main {
         String lastName = "Ivanov ";
         String fullName = lastName + firstName + middleName;
         System.out.println("ФИО сотрудника — " + fullName);
+        System.out.println("Урок 11. Строки. Задача 2");
+        String s = fullName;
+        String s1 = s.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + s1);
 
     }
 }
